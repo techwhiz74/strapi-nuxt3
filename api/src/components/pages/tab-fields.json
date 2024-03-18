@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_pages_tab_fields",
+  "info": {
+    "displayName": "TabFields",
+    "icon": "collapse"
+  },
+  "options": {},
+  "attributes": {
+    "TabTitle": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "Disabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

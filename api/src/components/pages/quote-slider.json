@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pages_quote_sliders",
+  "info": {
+    "displayName": "QuoteSlider",
+    "icon": "quote",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Quote": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.quote"
+    },
+    "Disabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "head": {
+      "type": "string"
+    }
+  }
+}

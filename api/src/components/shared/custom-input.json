@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_shared_custom_inputs",
+  "info": {
+    "displayName": "CustomInput",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "textarea",
+        "select",
+        "checkbox",
+        "option",
+        "email",
+        "tel",
+        "url ",
+        "date",
+        "scale",
+        "file",
+        "number"
+      ]
+    },
+    "Label": {
+      "type": "string"
+    },
+    "Help": {
+      "type": "string"
+    },
+    "InputID": {
+      "type": "string"
+    },
+    "Options": {
+      "type": "text"
+    },
+    "Required": {
+      "type": "boolean",
+      "default": false
+    },
+    "NotAFit": {
+      "type": "text"
+    },
+    "Placeholder": {
+      "type": "string"
+    },
+    "Min": {
+      "type": "integer"
+    },
+    "Max": {
+      "type": "integer"
+    }
+  }
+}

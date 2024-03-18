@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_pages_maps",
+  "info": {
+    "displayName": "Map",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "GoogleMapUrl": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Disabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

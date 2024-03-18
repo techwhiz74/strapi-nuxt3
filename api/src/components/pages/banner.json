@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_pages_banners",
+  "info": {
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.link"
+    },
+    "Disabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

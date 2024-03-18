@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_pages_vimeos",
+  "info": {
+    "displayName": "Vimeo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "EmbedCode": {
+      "type": "richtext"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Disabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "media": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contactButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.cta"
+    }
+  }
+}

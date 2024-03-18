@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_pages_add_forms",
+  "info": {
+    "displayName": "AddForm",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "form": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::form.form"
+    },
+    "Disabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

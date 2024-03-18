@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pages_one_processes",
+  "info": {
+    "displayName": "OneProcess",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "processNumber": {
+      "type": "integer"
+    },
+    "processTitle": {
+      "type": "string"
+    },
+    "processText": {
+      "type": "text"
+    }
+  }
+}

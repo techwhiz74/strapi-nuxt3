@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1305px" height="833px" viewBox="0 0 1305 833" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>placeholder 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1305" height="833"></rect>
+        <linearGradient x1="-2.22044605e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#373737" offset="0%"></stop>
+            <stop stop-color="#494949" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="-2.22044605e-14%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#393939" offset="0%"></stop>
+            <stop stop-color="#303030" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="-2.22044605e-14%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#565656" offset="0%"></stop>
+            <stop stop-color="#7A7A7A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-2.22044605e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-6">
+            <stop stop-color="#3F3F3F" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-2.22044605e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-7">
+            <stop stop-color="#505050" offset="0%"></stop>
+            <stop stop-color="#6C6C6C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-2.22044605e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-8">
+            <stop stop-color="#DCDCDC" offset="0%"></stop>
+            <stop stop-color="#E3E0E0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Illustrations-Dark-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="placeholder-3">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Shape" fill="#000000" xlink:href="#path-1"></use>
+            <path d="M-161.721811,860.516216 C165.456218,860.516216 344.30879,417 683.806265,417 C1023.30374,417 1236.26387,860.516216 1533.7802,860.516216 C1831.29653,860.516216 -368.793721,860.516216 -161.721811,860.516216 Z" id="Shape" fill="url(#linearGradient-3)" opacity="0.519999981" mask="url(#mask-2)"></path>
+            <path d="M-752.274807,865.018919 C-450.101317,865.018919 -284.91753,475.535135 28.6338953,475.535135 C342.18532,475.535135 538.87,865.018919 813.648684,865.018919 C1088.42737,865.018919 -943.521273,865.018919 -752.274807,865.018919 Z" id="Shape" fill="url(#linearGradient-4)" mask="url(#mask-2)"></path>
+            <path d="M376.957482,860.516216 C672.773886,860.516216 834.482558,471.032432 1141.43753,471.032432 C1448.3925,471.032432 1640.93935,860.516216 1909.93728,860.516216 C2178.93521,860.516216 189.734434,860.516216 376.957482,860.516216 Z" id="Shape" fill="url(#linearGradient-5)" opacity="0.800000012" mask="url(#mask-2)"></path>
+            <path d="M-755.291017,961.827027 C-524.740696,961.827027 -398.709869,610.616216 -159.478487,610.616216 C79.7528953,610.616216 229.818065,961.827027 439.466878,961.827027 C649.115692,961.827027 -901.206974,961.827027 -755.291017,961.827027 Z" id="Shape" fill="url(#linearGradient-6)" mask="url(#mask-2)"></path>
+            <ellipse id="Shape" fill="url(#linearGradient-7)" mask="url(#mask-2)" cx="276" cy="227.124324" rx="90" ry="90.0540541"></ellipse>
+            <ellipse id="Shape" fill="url(#linearGradient-8)" opacity="0.200000003" mask="url(#mask-2)" cx="276.25" cy="227.337838" rx="146.25" ry="146.337838"></ellipse>
+        </g>
+    </g>
+</svg>

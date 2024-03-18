@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_pages_contact_icons",
+  "info": {
+    "displayName": "ContactIcon",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contactInformation": {
+      "type": "string"
+    },
+    "contactIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

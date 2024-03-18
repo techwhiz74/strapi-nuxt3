@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_pages_tabs",
+  "info": {
+    "displayName": "Tabs",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "text"
+    },
+    "TabsCTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.cta"
+    },
+    "TabFields": {
+      "displayName": "TabFields",
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.tab-fields"
+    },
+    "Disabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

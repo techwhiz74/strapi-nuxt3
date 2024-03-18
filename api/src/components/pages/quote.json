@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_pages_quotes",
+  "info": {
+    "displayName": "Quote",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "Disabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "company": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "sliderHeadImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sliderHeadSvg": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_pages_nav_bars",
+  "info": {
+    "displayName": "NavBar",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navtext": {
+      "type": "string"
+    },
+    "navLink": {
+      "type": "string"
+    }
+  }
+}

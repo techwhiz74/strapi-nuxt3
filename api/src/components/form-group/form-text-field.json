@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_group_form_text_fields",
+  "info": {
+    "displayName": "FormTextField",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "Placeholder": {
+      "type": "string"
+    },
+    "TextId": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_pages_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "copywrite": {
+      "type": "string"
+    },
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.meta-social"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "nav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.nav-bar"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.contact-icon"
+    },
+    "policy": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    }
+  }
+}

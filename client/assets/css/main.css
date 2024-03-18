@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply prose text-5xl;
+      @apply font-serif;
+      @apply font-black;
+    }
+    h2 {
+      @apply prose text-4xl;
+      @apply font-serif;
+      @apply font-bold;
+    }
+    h3 {
+      @apply prose text-3xl;
+      @apply font-serif;
+      @apply font-black;
+    }
+    h4 {
+      @apply prose text-3xl;
+      @apply font-serif;
+      @apply font-medium;
+    }
+    h5 {
+      @apply prose text-lg;
+      @apply font-serif;
+    }
+    h6 {
+        @apply prose text-sm;
+        @apply font-serif;
+    }
+
+    p {
+      @apply prose;
+      @apply text-lg;
+    }
+
+    a {
+      @apply cursor-pointer;
+    }
+
+    .pre-heading {
+      @apply prose;
+      @apply text-2xl;
+      @apply font-bold;
+      @apply tracking-wider;
+    }
+
+    .sub-heading {
+      @apply prose;
+      @apply text-2xl;
+      @apply font-bold;
+    }
+
+    .componentWidth {
+      @apply w-11/12;
+      @apply mx-auto;
+      @apply px-5 lg:px-11;
+    }
+
+    article ol, article ul { 
+      @apply pl-5; 
+      @apply flex 
+      flex-col gap-1; 
+    }
+
+    article ol li { 
+      @apply list-decimal; 
+    }
+
+    article ul li { 
+      @apply list-disc; 
+    }
+    .yellowBackground {
+      background-color: #E2EF1E;
+    }
+    .whiteBackground {
+      background-color: #DCDCDC;
+    }
+    .yellowText {
+      color: #E2EF1E
+    }
+    .whiteText {
+      color: white
+    }
+    .blackText {
+      color: #0F0F0E;
+    }
+    .yellowBorder {
+      border: 2px solid #E2EF1E;
+    }
+    .featurebackground {
+      background: rgba(22, 22, 22, 0.70);
+    }
+    .blackBackground {
+      background-color: #0F0F0E;
+    }
+    .featureClipPath {
+      clip-path: inset(16rem 0 0 0);
+    }
+    .bannerLinearGradient {
+      background: linear-gradient(90deg, #161616 24.26%, rgba(25, 25, 25, 0.58) 66.15%, rgba(38, 38, 38, 0.00) 105.84%);
+    }
+    .greyBackground {
+      background: var(--Secondary-colour-1, #535353);
+      height: 35vw;
+    }
+    .processNumber {
+      left: -50px;
+      bottom: -35px;
+      font-size: 200px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 100%;
+      letter-spacing: -10px;
+      text-transform: uppercase;
+      clip-path: inset(0 0 35px 50px);
+    }
+  
+    .processReverseNumber {
+      right: -35px;
+      bottom: -35px;
+      font-size: 200px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 100%;
+      letter-spacing: -10px;
+      text-transform: uppercase;
+      clip-path: inset(0 35px 35px 0);
+      text-align: right;
+    }
+  
+    .processNumberMobile {
+      right: -10px;
+      left: -30px;
+      bottom: -25px;
+      font-size: 125px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 100%;
+      letter-spacing: -10px;
+      text-transform: uppercase;
+      clip-path: inset(0 0 25px 30px);
+    }
+  
+    .processReverseNumberMobile {
+      right: -20px;
+      bottom: -20px;
+      font-size: 125px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 100%;
+      letter-spacing: -10px;
+      text-transform: uppercase;
+      clip-path: inset(0 20px 20px 0);
+    }
+    .animateFaidIn {
+      animation: fadeIn 1s;
+    }
+    .bg-radial-gradient {
+      background: radial-gradient(rgba(255, 255, 255, 0), black);
+    }
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  }
+  

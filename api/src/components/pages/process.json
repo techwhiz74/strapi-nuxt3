@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pages_processes",
+  "info": {
+    "displayName": "Process",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "process": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.one-process"
+    }
+  }
+}

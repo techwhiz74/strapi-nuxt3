@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pages_rich_texts",
+  "info": {
+    "displayName": "richText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Icon": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "svgLink": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_form_group_form_fields",
+  "info": {
+    "displayName": "FormFields",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ButtonLabel": {
+      "type": "string"
+    },
+    "FormId": {
+      "type": "string"
+    },
+    "CustomInput": {
+      "displayName": "CustomInput",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.custom-input"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pages_tests",
+  "info": {
+    "displayName": "test",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.rich-text"
+    }
+  }
+}

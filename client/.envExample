@@ -1,0 +1,8 @@
+VITE_RECAPTCHA_SITE_KEY=NeedFromGoogle
+VITE_STRAPI_URL=http://localhost:1337 // Strapi URL
+VITE_PUBLISHED_STATE=PREVIEW // PREVIEW or LIVE
+VITE_URL=http://localhost:3000 // Nuxt URL
+VITE_TITLE=Strapi Nuxt Blog // Site title
+IMAGEKIT_ID=NeedFromImageKit
+SSR_ENABLED=true // true or false
+NUXT_GTAG=G-TH55SV45HD // Google Analytics ID

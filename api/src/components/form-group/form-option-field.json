@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_form_group_form_option_fields",
+  "info": {
+    "displayName": "FormOptionField",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "OptionId": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "maxLength": 50
+    },
+    "Options": {
+      "type": "richtext",
+      "default": "Add new options on a new line followed by a,",
+      "required": true
+    },
+    "OptionLabel": {
+      "type": "string"
+    }
+  }
+}

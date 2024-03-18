@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cookie_categories",
+  "info": {
+    "singularName": "cookie-category",
+    "pluralName": "cookie-categories",
+    "displayName": "Cookie Categories"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    },
+    "content-manager": {
+      "visible": false
+    }
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true
+    },
+    "isNecessary": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "key": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "regex": "^(?!-)(?!.*?-$)[a-z0-9]*(?:-[a-z0-9]+)*$"
+    },
+    "cookies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cookie.cookie",
+      "mappedBy": "category"
+    }
+  }
+}

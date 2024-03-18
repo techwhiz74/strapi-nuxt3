@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_pages_alerts",
+  "info": {
+    "displayName": "Alert",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.link"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "bottom"
+      ]
+    },
+    "Disabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

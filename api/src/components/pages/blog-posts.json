@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pages_blog_posts",
+  "info": {
+    "displayName": "Blog-posts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Disabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_pages_headers",
+  "info": {
+    "displayName": "Header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "nav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.nav-bar"
+    },
+    "startButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.link"
+    },
+    "animation": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contactButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.cta"
+    }
+  }
+}

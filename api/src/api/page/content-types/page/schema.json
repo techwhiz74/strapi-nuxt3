@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Pages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "pageZone": {
+      "type": "dynamiczone",
+      "components": [
+        "pages.image",
+        "pages.quote",
+        "pages.rich-text",
+        "pages.blog-posts",
+        "pages.add-form",
+        "pages.map",
+        "pages.feature-img-text",
+        "pages.banner",
+        "pages.vimeo",
+        "pages.quote-slider",
+        "pages.tabs",
+        "pages.header",
+        "pages.footer",
+        "pages.button",
+        "pages.featured-list",
+        "pages.featured-image-text",
+        "pages.nav-bar",
+        "pages.popup",
+        "pages.process"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "Alert": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.alert"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.link"
+    }
+  }
+}

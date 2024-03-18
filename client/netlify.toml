@@ -1,0 +1,23 @@
+# Settings in the [build] context are global and are applied to
+# all contexts unless otherwise overridden by more specific contexts.
+[build]
+  base = "client/"
+  publish = "dist/"
+
+  # Default build command.
+  command = "yarn generate"
+
+# Specific branch context: all deploys from
+# this specific branch will inherit these settings.
+[context.staging] # “staging” is a branch name
+  command = "yarn generate"
+  base = "client/"
+  publish = "dist/"
+[context.staging.environment]
+  VITE_PUBLISHED_STATE = "PREVIEW"
+
+[dev]
+  command = "yarn start"
+  port = 1337
+  publish = "dist"
+

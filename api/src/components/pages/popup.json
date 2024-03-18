@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_pages_popups",
+  "info": {
+    "displayName": "Popup",
+    "icon": "calendar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.image"
+    },
+    "text": {
+      "type": "text"
+    },
+    "buttonSvg": {
+      "type": "text"
+    }
+  }
+}
